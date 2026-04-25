@@ -1,318 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Personal Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akshay Patel — Founding Engineer</title>
+  <meta name="description" content="Akshay Patel — Founding engineer at Eddi. Boston, MA. Past: OpenGov, Fidelity, Veracode, MFS, Cytonome.">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+<!-- ===== NAV ===== -->
+<nav class="nav" id="nav">
+  <div class="nav-logo">Akshay Patel<span class="dot">.</span></div>
+  <ul class="nav-links">
+    <li><a href="#projects"><span class="n">01</span>Work</a></li>
+    <li><a href="#experience"><span class="n">02</span>Experience</a></li>
+    <li><a href="#contact"><span class="n">03</span>Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta"><span class="pulse"></span>Available for collab</a>
+</nav>
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/style.css">
-    
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-meta">
+    <div class="hero-meta-block">
+      <span class="label">// Currently</span>
+      <span class="val"><span class="live"></span>Founding Engineer @ Eddi</span>
     </div>
-   
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-      
-      <div class="container-fluid">
-        <div class="d-flex align-items-center">
-          <div class="site-logo"><a href="#home">Akshay Patel</a></div>
-          <div>
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#resume" class="nav-link">Resume</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="ml-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span class="rounded border border-primary">Contact</span></a></li>
-              </ul>
-            </nav>
-            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
-          </div>
-        </div>
-      </div>
-      
-    </header>
-
-    <div class="intro-section" id="home">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-4 mr-auto" data-aos="fade-up">
-            <h1>Hello!</h1>
-            <p class="mb-5">Welcome to my personal website, I am Akshay Patel. I am a developer and a graduate from Wentworth Institute of Technology in Boston Massachusetts.</p>
-          </div>
-          <div class="col-lg-2 ml-auto"  data-aos="fade-up" data-aos-delay="100">
-            <figure class="img-absolute">
-              <img src="images/Profile.jpg" alt="Image" class="img-fluid">
-            </figure>
-          </div>
-        </div>
-      </div>
+    <div class="hero-meta-block center">
+      <span class="label">// Coordinates</span>
+      <span class="val">Boston, MA · 42.36°N 71.05°W</span>
     </div>
-      
-    <div class="site-section section-2" id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-5">
-            <span class="section-sub-title d-block">Projects</span>
-            <h2 class="section-title">My Works</h2>
-            <p>These are some of my personal projects that I have worked on. Some of these projects are worked on during my time in college and some have been through my internships.</p>
-          </div>
-        </div>
-      </div>
-        
-      <div class="owl-carousel nonloop-block-13">
-
-          <a class="work-thumb" href="images/OpenTab.jpg" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>OpenTab</h3>
-              <span class="category">
-                <p>Developed a mobile application for ordering food 
-                  <br>and beverages at restaurants. 
-                  <br>Coded a business side so that restaurant employees can edit menu items and see a queue system of orders. 
-                </p>
-              </span>
-            </div>
-            <img src="images/OpenTab.jpg" alt="Image" class="img-fluid">
-          </a> 
-          
-          <a class="work-thumb" href="images/Server.jpg"  data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Automated Security Scanning</h3>
-              <span class="category">
-                <p>Created and developed an automated security scanning 
-                  <br>system at my internship at Veracode.
-                  <br>It is a pipeline for internal Veracode's code repository.
-                  <br>Initiates a build of the code and submits the built artifact to
-                  <br>Veracode's internal Static/Dynamic Analysis Engine. 
-                </p>
-              </span>
-            </div>
-            <img src="images/Server.jpg" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/Desktop.jpg"  data-fancybox="gallery">
-            <div class="work-text">
-              <h3>User application</h3>
-              <span class="category">
-                <p>Created and developed a users application at my internship at Massachusetts Financial Services.
-                  <br>It is a desktop application, designed to gather a 
-                  <br>list of all the users for Jira, Confluence and BitBucket.
-                  <br>The application has many features such as a search feature to look up specific users and an export 
-                  <br> the list as an excel document.
-                </p>
-              </span>
-            </div>
-            <img src="images/Desktop.jpg" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/Mobile.jpg"  data-fancybox="gallery">
-            <div class="work-text">
-              <h3>WentWealth</h3>
-              <span class="category">
-                <p>Developed code for a personal finance Android application.
-                <br>Worked with a team to develop a mobile application 
-                <br>to manage expenses and savings goals.
-              </p>
-              </span>
-            </div>
-            <img src="images/Mobile.jpg" alt="Image" class="img-fluid">
-          </a>
-      </div>
-
+    <div class="hero-meta-block right">
+      <span class="label">// Portfolio v3.0</span>
+      <span class="val" id="time-now">— · —</span>
     </div>
+  </div>
 
-    <div class="site-section section-2" id="resume" >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-5">
-            <span class="section-sub-title d-block">Resume</span>
-            <h2 class="section-title">My Resume</h2>
-            <p>This is my most updated resume. Listed below are my most prominent jobs I have had.</p>
-            <p><a href="images/Akshay Patel_Resume.pdf" target="_blank">Click here to view my full resume.</a></p>
+  <h1 class="hero-name">
+    <span class="word"><span>Akshay</span></span>
+    <span class="word"><span>Pate<span class="last-letter">l</span></span></span>
+  </h1>
 
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="">
-            <div class="process p-3">
-              <div>
-                <span class="flaticon-lab display-4 text-primary mb-4 d-inline-block"></span>
-                <h3>Cytonome</h3>
-                <p>Cytonome is a biotechnology company that specifies in flow cytonometry. At Cytonome, I was a software engineering intern. I foucused on developing code for their cell sorting machines.</p>
-              </div>
+  <div class="hero-bottom">
+    <div class="hero-role">
+      <span class="rotator" id="rotator">building software</span>
+    </div>
+    <p class="hero-tagline">A founding engineer shipping product at <em>Eddi</em>, with a past life across fintech, security and biotech.</p>
+    <div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <span class="line"></span>
+    </div>
+  </div>
+</section>
 
-            </div>
-          </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="process p-3">
-              <div>
-                <span class="flaticon-money display-4 text-primary mb-4 d-inline-block"></span>
-                <h3>Massachusetts Finanical Services</h3>
-                <p>Massachusetts Finanical Services is a global investment manager. At MFS, I was a development operations engineering intern, that foucused on automating many aspects of their CI/CD pipelines.</p>
-              </div>
+<!-- ===== MARQUEE ===== -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Founding Engineer</span><span class="star">✶</span>
+    <span>Full-Stack</span><span class="star">✶</span>
+    <span>DevOps &amp; Platform</span><span class="star">✶</span>
+    <span>Security-Minded</span><span class="star">✶</span>
+    <span>APIs at Scale</span><span class="star">✶</span>
+    <span>Boston, MA</span><span class="star">✶</span>
+    <span>Founding Engineer</span><span class="star">✶</span>
+    <span>Full-Stack</span><span class="star">✶</span>
+    <span>DevOps &amp; Platform</span><span class="star">✶</span>
+    <span>Security-Minded</span><span class="star">✶</span>
+    <span>APIs at Scale</span><span class="star">✶</span>
+    <span>Boston, MA</span><span class="star">✶</span>
+  </div>
+</div>
 
-            </div>
-          </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="process p-3">
-              <div>
-                <span class="flaticon-platform display-4 text-primary mb-4 d-inline-block"></span>
-                <h3>Veracode</h3>
-                <p>Veracode is a software company based on application security. They have many products ranging from various application scanning methods. At Veracode, I was a security researcher intern, that focused on automation of security scans and scan analysis.</p>
-              </div>
+<!-- ===== PROJECTS ===== -->
+<section class="projects" id="projects">
+  <div class="section-head">
+    <div class="section-num">/ 01 — <span class="accent">Selected work</span></div>
+    <h2 class="section-title">Things I've <em>built</em>, shipped, and stood behind.</h2>
+  </div>
 
-            </div>
-          </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="process p-3">
-              <div>
-                <img src="https://img.icons8.com/ios/50/157ffb/investment.png"" class="flaticon-platform display-4 text-primary mb-4 d-inline-block"/>
-                <h3>Fidelity Investments</h3>
-                <p>Fidelity Investments is a financial services corporation. It is one of the largest assets managers in world with services ranging from investment advice, investment advice, life insurance, 401k, etc.</p>
-              </div>
-            
-            </div>
-          </div>
-        </div>
+  <div class="project reveal">
+    <div class="project-num">001 / 03</div>
+    <div class="project-info">
+      <div class="project-meta"><span>2024 — 2026</span><span>OpenGov · Group</span></div>
+      <h3 class="project-title"><em>Public</em> API Platform</h3>
+      <p class="project-desc">Built OpenGov's external Public API Platform from the ground up — 68 production-grade APIs with strict schema governance, a GraphQL Mesh gateway unifying microservices, and an interactive Zudoku-powered docs frontend. Owned architecture, backend, frontend, testing, and CI/CD end-to-end.</p>
+      <div class="project-tags">
+        <span class="tag">TypeScript</span><span class="tag">Ruby on Rails</span><span class="tag">GraphQL Mesh</span><span class="tag">Zudoku</span>
       </div>
     </div>
+    <div class="project-image">
+      <img src="images/project-opengov.svg" alt="OpenGov API platform diagram">
+    </div>
+  </div>
 
-    <div class="site-section" id="contact-section">
-      <div class="container">
+  <div class="project reveal">
+    <div class="project-num">002 / 03</div>
+    <div class="project-info">
+      <div class="project-meta"><span>2019</span><span>Veracode · Individual</span></div>
+      <h3 class="project-title"><em>Automated</em> Security Scanning</h3>
+      <p class="project-desc">Developed an automated system that submits projects to Veracode's static-analysis engine for compliance. Built repository integration hooks and generalized the tool so any internal team could drop it into their pipeline.</p>
+      <div class="project-tags">
+        <span class="tag">Python</span><span class="tag">CI/CD</span><span class="tag">SAST</span>
+      </div>
+    </div>
+    <div class="project-image">
+      <img src="images/project-veracode.svg" alt="Veracode static analysis pipeline diagram">
+    </div>
+  </div>
 
-        <div class="row justify-content-center">
-          <div class="col-md-7">
+  <div class="project reveal">
+    <div class="project-num">003 / 03</div>
+    <div class="project-info">
+      <div class="project-meta"><span>2019</span><span>MFS · Individual</span></div>
+      <h3 class="project-title">User Application</h3>
+      <p class="project-desc">Owned architecture, backend, frontend, testing, and CI/CD for an internal user directory at MFS. Shipped a search interface and Excel export so non-engineers could work with the data directly.</p>
+      <div class="project-tags">
+        <span class="tag">C#</span><span class="tag">.NET</span><span class="tag">REST APIs</span>
+      </div>
+    </div>
+    <div class="project-image">
+      <img src="images/project-mfs.svg" alt="MFS user directory desktop app">
+    </div>
+  </div>
+</section>
 
-            <h2 class="section-title mb-3">Message Me</h2>
-            <p class="mb-5">Please provide your information below to get in touch with me.</p>
-          
-            <form name="contactform" action="https://formspree.io/f/maygyozb" method="POST" >
-              <div class="form-group row">
-                <div class="col-md-6 mb-3 mb-lg-0">
-                  <input type="text" name="first-name" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-md-6">
-                  <input type="text" name="last-name" class="form-control" placeholder="Last name">
-                </div>
-              </div>
+<!-- ===== EXPERIENCE ===== -->
+<section class="experience" id="experience">
+  <div class="section-head">
+    <div class="section-num">/ 02 — <span class="accent">Experience</span></div>
+    <h2 class="section-title">Seven years across <em>startup</em>, finance, security, and biotech.</h2>
+  </div>
 
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="text" name="Subject" class="form-control" placeholder="Subject">
-                </div>
-              </div>
+  <div class="timeline">
+    <div class="timeline-spine">
+      <div class="now-label">
+        // Now
+        <span class="accent">2024 → ∞</span>
+      </div>
+    </div>
+    <div class="timeline-track">
 
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="email" name="Email" class="form-control" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <textarea name="Message" class="form-control" cols="30" rows="10" placeholder="Write your message here."></textarea>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-6">
-                  
-                  <input type="submit" class="btn btn-primary py-3 px-5 btn-block" value="Send Message">
-                </div>
-              </div>
-            </form>
-          </div>
+      <div class="job current reveal">
+        <div class="job-meta">
+          <span>2026 — Present</span><span class="dot"></span>
+          <span class="current-tag">Now</span>
         </div>
+        <h3 class="job-title"><em>Eddi</em></h3>
+        <div class="job-role">Founding Engineer · Boston, MA</div>
+        <p class="job-desc">Building product end-to-end at an early-stage startup. Wearing every hat — frontend, backend, infra, design polish, and debugging.</p>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-meta">
+          <span>Dec 2024 — Jan 2026</span><span class="dot"></span><span>Boston, MA</span>
+        </div>
+        <h3 class="job-title">OpenGov</h3>
+        <div class="job-role">Software Engineer II</div>
+        <p class="job-desc">Designed and shipped OpenGov's Public API Platform — 68 external-facing APIs across multiple microservices, stitched together with a GraphQL Mesh gateway. Built backend services in TypeScript and Ruby on Rails, a Zudoku-powered docs frontend, and full CI/CD pipelines. Contributed to architectural RFCs and the long-term roadmap for API exposure at scale.</p>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-meta">
+          <span>Jan 2021 — Nov 2024</span><span class="dot"></span><span>Boston, MA</span>
+        </div>
+        <h3 class="job-title">Fidelity Investments</h3>
+        <div class="job-role">Software Engineer</div>
+        <p class="job-desc">Built application infrastructure on AWS EKS, Kubernetes and Docker. Wrote a custom Spring Boot interceptor for URI-pattern-based redirection, shipped Angular frontend features, and automated build/deploy pipelines with Terraform across three managed regions.</p>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-meta">
+          <span>Aug 2019 — Dec 2019</span><span class="dot"></span><span>Burlington, MA</span>
+        </div>
+        <h3 class="job-title">Veracode</h3>
+        <div class="job-role">Product Security Engineering Intern</div>
+        <p class="job-desc">Built internal security tools supporting secure coding across product teams. Automated pipelines for Veracode's static-analysis engine and wrote tests to improve the reliability of static-analysis workflows.</p>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-meta">
+          <span>Jan 2019 — Jun 2019</span><span class="dot"></span><span>Boston, MA</span>
+        </div>
+        <h3 class="job-title">Massachusetts Financial Services</h3>
+        <div class="job-role">DevOps Engineering Intern</div>
+        <p class="job-desc">Automated Jira and agile-tooling workflows with custom scripts, built a REST-based app to aggregate user info across internal systems, and ran vulnerability scans and security reporting across multiple applications.</p>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-meta">
+          <span>May 2018 — Aug 2018</span><span class="dot"></span><span>Bedford, MA</span>
+        </div>
+        <h3 class="job-title">Cytonome</h3>
+        <div class="job-role">Software Engineering Intern</div>
+        <p class="job-desc">Developed firmware-level code for components of a cell-sorting machine. Debugged real-time software systems and managed issue tracking through TRAC — my first job in software, and the one that hooked me.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="section-head">
+    <div class="section-num">/ 03 — <span class="accent">Contact</span></div>
+    <div></div>
+  </div>
+  <h2 class="contact-headline">Let's <em>talk.</em> <span class="arrow">↗</span></h2>
+
+  <div class="contact-grid">
+    <div class="contact-left">
+      <p>If you're hiring, building something interesting, or just want to trade notes — drop me a line. I read everything.</p>
+      <div class="direct-list">
+        <div class="foot-h">// Direct</div>
+        <a href="mailto:a.patel07@outlook.com" class="direct-link">a.patel07@outlook.com ↗</a>
+        <a href="https://www.linkedin.com/in/akshay-patel7/" target="_blank" rel="noopener" class="direct-link">LinkedIn ↗</a>
+        <a href="https://github.com/Akshay-patel7" target="_blank" rel="noopener" class="direct-link">GitHub ↗</a>
       </div>
     </div>
 
-    <footer class="footer-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h3></h3>
-              <p></p>
-            </div>
-  
-            <div class="col-md-3 ml-auto">
-              <h3>Links</h3>
-              <ul class="list-unstyled footer-links">
-                <li><a href="https://www.linkedin.com/in/akshay-patel-68b17b153/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/Shay97"target="_blank">GitHub</a></li>
-              </ul>
-            </div>
-  
-            <div class="col-md-4">
-              <h3></h3>
-              <p></p>
-              <form action="#">
-                <div class="d-flex mb-5">
-                </div>
-              </form>
-            </div>
-  
-          </div>
-  
-          <div class="row pt-5 mt-5 text-center">
-            <div class="col-md-12">
-              <div class="border-top pt-5">
-        
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </footer>
-  
-    
-  </div> <!-- .site-wrap -->
+    <form class="contact-form" action="https://formspree.io/f/maygyozb" method="POST">
+      <div class="field">
+        <label><span class="num">01</span>What's your name?</label>
+        <input type="text" name="name" placeholder="John Appleseed" required>
+      </div>
+      <div class="field">
+        <label><span class="num">02</span>Your email?</label>
+        <input type="email" name="email" placeholder="you@somewhere.com" required>
+      </div>
+      <div class="field">
+        <label><span class="num">03</span>What's on your mind?</label>
+        <textarea name="message" rows="4" placeholder="Tell me a little about your project, role, or idea…"></textarea>
+      </div>
+      <button class="submit" type="submit">Send message <span class="arrow">→</span></button>
+    </form>
+  </div>
+</section>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="foot-grid">
+    <div>
+      <div class="foot-h">// Akshay Patel</div>
+      <p class="foot-bio">Founding engineer at Eddi. Boston, MA. B.S. Computer Science, Wentworth Institute of Technology.</p>
+    </div>
+    <div>
+      <div class="foot-h">// Sitemap</div>
+      <div class="foot-mono">
+        <a href="#home">Home</a>
+        <a href="#projects">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">// Elsewhere</div>
+      <div class="foot-mono">
+        <a href="https://www.linkedin.com/in/akshay-patel7/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://github.com/Akshay-patel7" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="mailto:a.patel07@outlook.com">Email ↗</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">// Status</div>
+      <div class="foot-mono"><span class="live-dot"></span>Available for collab</div>
+    </div>
+  </div>
 
-  <script src="js/main.js"></script>
-    
-  </body>
+  <div class="foot-bigname">Akshay Pate<span class="accent-l">l.</span></div>
+
+  <div class="foot-bottom">
+    <span>© 2026 — Made with care</span>
+    <span>v3.0 / Updated April '26</span>
+  </div>
+</footer>
+
+<!-- Tweaks defaults -->
+<script>
+window.TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "accentColor": "#e0653a",
+  "bgColor": "#0e0e0d",
+  "grainOpacity": 0.05,
+  "showMarquee": true,
+  "marqueeSpeed": 40,
+  "rotateRoles": true,
+  "showClock": true
+}/*EDITMODE-END*/;
+</script>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="js/tweaks.jsx"></script>
+
+<script src="js/main.js"></script>
+</body>
 </html>
