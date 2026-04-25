@@ -27,6 +27,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  font-variant-emoji: text;
 }
 
 /* Subtle grain noise overlay */
