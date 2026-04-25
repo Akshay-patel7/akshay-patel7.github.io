@@ -1,2 +1,2 @@
-# Shay97.github.io
+# akshay-patel7.github.io
 Personal Website
